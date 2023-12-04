@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.home {
+  background: url("bgimg.jpg");
+  background-size: cover;
+  height: 100vh;
+  filter: brightness(1);
+}
+
+.home .text-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.nav {
+  height: 50px;
+  background-color: darkslateblue;
+}
+
+.nav div {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav ul {
+  position: absolute;
+  right: 5px;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color: white;
+  padding: 5px
+}
+
+.about-content {
+  width: 500px;
+  margin: 150px auto 0 auto;
+}
+
+.about-content h1{
+  text-align: center;
+  font-family: 'Roboto', san serif;
+  color: #ff0000;
+}
+
+.about-content p{
+  text-align: justify;
+  font-family: 'Lato', san serif;
+  color: green
+}
+
+.service-content {
+  text-align: center;
+  width: 80px auto 0 auto;
+}
+
+.service-content h1{
+  text-align: center;
+  font-family: 'Roboto', san serif;
+}
+
+.service-content .card-container ul {
+  padding: 0;
+}
+
+.service-content .card-container ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  width: 300px
+}
+
+.service-content .card-container ul li p{
+  text-align: justify;
+  font-family: 'Lato', san serif;
+  color: brown;
+}
+
+.contact-content {
+  text-align: center;
+  margin: 80px auto 0 auto;
+}
+
+.contact-content h1 {
+  font-family: 'Roboto', sans-serif;
+  color: red;
+}
+
+.contact-content .address-holder {
+  font-family: 'Lato', san serif;
+}
